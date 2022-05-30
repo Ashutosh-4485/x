@@ -3,6 +3,7 @@
 Recommender systems are the systems that are designed to recommend things to the user based on many different factors. These systems predict the most likely product that the users are most likely to purchase and are of interest to. Companies like Netflix, Amazon, etc. use recommender systems to help their users to identify the correct product or movies for them. 
 
 **Types of recommender systems**
+
 There are three primary types of recommender systems.
 
 1. Content-based filtering uses similarities in products, services, or content features, as well as information accumulated about the user to make recommendations.
@@ -19,7 +20,8 @@ Mathematically, Cosine similarity metric measures the cosine of the angle betwee
 # Context
 This data set contains information on user preference data from 73,516 users on 12,294 anime. Each user is able to add anime to their completed list and give it a rating and this data set is a compilation of those ratings.
 
-**Content
+**Content**
+
 Anime.csv
 
 anime_id - myanimelist.net's unique id identifying an anime.
