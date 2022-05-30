@@ -52,10 +52,15 @@ rating - rating out of 10 this user has assigned (-1 if the user watched it but 
 **Imports**
 
 import pandas
+
 from sklearn.feature_extraction.text import CountVectorizer
+
 from nltk.stem.porter import PorterStemmer
+
 import bz2
+
 import pickle
+
 from sklearn.metrics.pairwise import cosine_similarity
 
 I did the basic preprocessing like (dropping null rows, dropping unwanted columns and removing anomalities for the string type columns ) but the main focus was on strings so that I can apply the cosine similarity. For that I made a new column named "tags" which is the concatenation of "title", "synopsis" and "genre". After aapplyting NLP on "tags" column and applied cosine similarity on the column and using this column we can recommend the anime.
